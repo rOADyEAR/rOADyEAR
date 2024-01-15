@@ -1,7 +1,3 @@
-[标题编号](#number)
-
-
-
 
 ### 一级标题
 使用 # 符号进行分级
@@ -135,9 +131,10 @@ Here is a simole footnote,[^1] and here is a longer one.[^bignote]
     `{my code}`  
     Add as many paragraphs as you like.  
 
+
 ### 标题编号 {#number}
 
-
+[标题编号](#number)
 
 ### 定义列表
 
