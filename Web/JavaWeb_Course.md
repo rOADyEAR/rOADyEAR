@@ -238,4 +238,8 @@ EL有自己的关键字:...(不再列举)
 流程：
 <img src="pic\AJAX_Procedure.png" alt="JS_Func" height = 200px>
 
+## JQuery
 
+基本语法：
+
+文档就绪函数：为了防止HTML文档在完全加载之前运行jQuery代码，一般会将所有的jQuery调用放到文档就绪函数中。
