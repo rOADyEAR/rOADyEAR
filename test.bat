@@ -9,6 +9,6 @@ echo "Time:" %now%
 git commit -m "%now%"
 
 echo " ------PUSH REMOTE---------"
-git push
+git push --set-upstream origin master
 
 pause
