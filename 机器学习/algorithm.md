@@ -8,9 +8,11 @@
 
 ## 聚类算法
 **聚类算法**是无监督学习。
-聚类算法有**Hierarchical Clustering（层次聚类）、Partitioning Clustering、Density Based Clustering**
+聚类算法有**Hierarchical Clustering（层次聚类）、Partitioning Clustering（分割聚类）、Density Based Clustering**
 
 ### Partitioning Clustering
+主要目的是把数据聚成多个簇
+
 
 #### K-means
 主要定义：K：分为**K**个类，mean是一个数据集的**质心**，有k个所以是means。
@@ -23,3 +25,6 @@
 
 [K-Means可视化网站](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 
+#### K-Medoids（或称PAM（Partioning Around Medoids））
+主要定义：Partioning：分割聚类算法，Medoids是**K-Medoids（K个簇的唯一中心点）**。
+与K-Means的区别：K—Means算法不具备
