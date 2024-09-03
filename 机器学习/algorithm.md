@@ -6,6 +6,11 @@
 ## 分类算法
 **分类算法**是有监督学习
 
+### 支持向量机（SVM）
+**SVM算法**是监督学习，用于解决二分类&多分类问题。
+
+
+
 ## 聚类算法
 **聚类算法**是无监督学习。
 聚类算法有**Hierarchical Clustering（层次聚类）、Partitioning Clustering、Density Based Clustering**
@@ -22,4 +27,31 @@
 - 优化目标：最小化每个数据点到簇中心点距离之和。
 
 [K-Means可视化网站](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+
+
+## 特征选择（Feature Selection）
+特征选择作为特征工程的一部分，主要是去除不相关或冗余（**Irrelevant&Redundant**）的特征，防止产生影响.
+
+### 过滤方法（Filter Method）
+定义：利用统计学方法，**计算特征与目标变量之间的相关性**，评估特征的重要性，选择最佳特征子集。
+
+#### 方差选择法（Variance Thresholding）
+通过计算特征的方差选择特征，方差低于阈值（threshold）的往往不具备保留价值。
+优点：简单、快速、适合大规模数据
+缺点：只考虑特征的单变量分布，且有些特征虽小但重要。
+
+#### 相关系数法（Pearson correlation）
+
+
+#### 卡方检验（Chi-Square Test）
+
+
+#### 互信息法（Mutual Information）
+
+
+#### L1正则化（L1 Regularization）
+
+
+
+### 包装方法（Wrapper Method）
 
