@@ -8,8 +8,18 @@
 
 ### 支持向量机（SVM）
 **SVM算法**是监督学习，用于解决二分类&多分类问题。
+**核心思想**：找到一个超平面进行分类，并使间隔最大。
+硬间隔和软间隔：
+- 硬间隔：严格分隔实例到最大间隔之外且为正确的一边。
+  - 缺点：只对线性可分离数据有效，且对于异常值非常敏感。
+- 软间隔：在保持最大间隔宽阔和限制间隔违例（在间隔内甚至错误一侧）间找到平衡。
+  - Scikit-learn中，通过超参数C控制，C越小，间隔越宽，违例越多，反之亦然。
 
+优点：
+1. 良好的鲁棒性，对未知数据有较强泛化性，在数据较少时相比传统机器学习算法有更优性能。
 
+流程：
+1. 对样本数据归一化。
 
 ## 聚类算法
 **聚类算法**是无监督学习。
@@ -30,11 +40,10 @@
 
 [K-Means可视化网站](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 
-<<<<<<< HEAD
+
 #### K-Medoids（或称PAM（Partioning Around Medoids））
 主要定义：Partioning：分割聚类算法，Medoids是**K-Medoids（K个簇的唯一中心点）**。
 与K-Means的区别：K—Means算法不具备
-=======
 
 ## 特征选择（Feature Selection）
 特征选择作为特征工程的一部分，主要是去除不相关或冗余（**Irrelevant&Redundant**）的特征，防止产生影响.
@@ -61,5 +70,3 @@
 
 
 ### 包装方法（Wrapper Method）
-
->>>>>>> 0fe8b6c193fc132d53bdda3b57684f4ec2ca18d5
