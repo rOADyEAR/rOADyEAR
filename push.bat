@@ -13,5 +13,3 @@ git pull
 
 echo " ------PUSH REMOTE---------"
 git push --set-upstream origin master
-
-pause
