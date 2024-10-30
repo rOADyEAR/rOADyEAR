@@ -2,11 +2,13 @@
 
 - 机器学习分为监督学习、非监督学习和半监督学习
 
+## 监督学习
 
-## 分类算法
+
+### 分类算法
 **分类算法**是有监督学习
 
-### 支持向量机（SVM）
+#### 支持向量机（SVM）
 **SVM算法**是监督学习，用于解决二分类&多分类问题。
 **核心思想**：找到一个超平面进行分类，并使间隔最大。
 硬间隔和软间隔：
@@ -21,15 +23,17 @@
 流程：
 1. 对样本数据归一化。
 
-## 聚类算法
+## 无监督学习
+
+### 聚类算法
 **聚类算法**是无监督学习。
 聚类算法有**Hierarchical Clustering（层次聚类）、Partitioning Clustering（分割聚类）、Density Based Clustering**
 
-### Partitioning Clustering
+#### Partitioning Clustering
 主要目的是把数据聚成多个簇
 
 
-#### K-means
+##### K-means
 主要定义：K：分为**K**个类，mean是一个数据集的**质心**，有k个所以是means。
 原理：K-means算法通过迭代，将数据点划分到最近（欧式距离、余弦相似...）的类簇中心点（mean）代表的簇中。随后根据簇中数据点重新计算质点。不断重复。
 重点：
@@ -41,7 +45,7 @@
 [K-Means可视化网站](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 
 
-#### K-Medoids（或称PAM（Partioning Around Medoids））
+##### K-Medoids（或称PAM（Partioning Around Medoids））
 主要定义：Partioning：分割聚类算法，Medoids是**K-Medoids（K个簇的唯一中心点）**。
 与K-Means的区别：K—Means算法不具备
 
