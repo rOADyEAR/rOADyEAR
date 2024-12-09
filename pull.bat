@@ -10,5 +10,6 @@ git commit -m "%now%"
 
 echo " ------PULL REMOTE---------"
 git pull remote origin
-system.pause
+
+pause
 
