@@ -9,6 +9,6 @@ echo "Time:" %now%
 git commit -m "%now%"
 
 echo " ------PULL REMOTE---------"
-git pull origin
+git pull
 
 
