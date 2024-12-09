@@ -9,7 +9,7 @@ echo "Time:" %now%
 git commit -m "%now%"
 
 echo " ------PULL REMOTE---------"
-git pull remote origin
+git pull origin
 
 pause
 
